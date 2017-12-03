@@ -1,0 +1,34 @@
+body {
+    background-color: crimson;
+    color: aliceblue;
+}
+
+/* selektor znacznika */
+
+p {
+    color: gray;
+}
+
+#paragraf {
+    color: hotpink;
+}
+
+a,
+span,
+div {
+    color: cadetblue;
+}
+
+li > a {
+    background-color: lightyellow;
+}
+
+h2 + h3 {
+    color: chartreuse;
+}
+ul > li:not(.last) {
+    color: darkviolet;
+}
+ol > li:nth-child(2) {
+    background-color: coral;
+}
